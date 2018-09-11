@@ -12,5 +12,9 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('index');
 });
+Route::get('/admin/', 'AdminController@index');
+Route::get('/admin/admin-list/', 'AdminController@listAdmin');
+Route::get('/admin/user-list/', 'AdminController@listUser');
+Route::get('/admin/book-list/', 'AdminController@listBook');
