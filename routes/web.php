@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('index');
+    return var_dump("222");
 });
 Route::get('/admin/', 'AdminController@index');
 Route::get('/admin/admin-list/', 'AdminController@listAdmin');
