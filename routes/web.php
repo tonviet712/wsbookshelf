@@ -11,10 +11,21 @@
 |
 */
 
-Route::get('/', function () {
-    return var_dump("222");
+// Admin route
+Route::get('/admin', 'Admin\AdminController@index');
+Route::prefix('admin')->name('admin.')->group(function () {
+    Route::resource('accounts', 'Admin\AccountController');
+    Route::resource('books', 'Admin\BookController');
+    Route::resource('history', 'Admin\HistoryController');
 });
-Route::get('/admin/', 'AdminController@index');
-Route::get('/admin/admin-list/', 'AdminController@listAdmin');
-Route::get('/admin/user-list/', 'AdminController@listUser');
-Route::get('/admin/book-list/', 'AdminController@listBook');
+
+// User route
+Route::namespace('User')->prefix('/')->group(function () {
+    Route::get('/', 'IndexController@index')->name('index');
+    Route::get('/auth', 'UserController@showLoginForm');
+    Route::post('/auth', 'UserController@login');
+});
+
+Auth::routes();
+
+/*Route::get('/home', 'HomeController@index')->name('home');*/

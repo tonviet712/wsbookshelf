@@ -17,7 +17,8 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.7/css/AdminLTE.css">
   <!-- AdminLTE Skins -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.7/css/skins/skin-blue.min.css">
-
+  {{-- Custom CSS --}}
+  <link rel="stylesheet" href="/public/css/account.css">
   <!-- Google Font -->
   <link rel="stylesheet"
   href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
@@ -26,16 +27,13 @@
 <body class="hold-transition skin-blue sidebar-mini">
   <div class="wrapper">
     <!-- Main Header -->
-    @include('layouts.header')
+    @include('layouts.admin.header')
     <!-- Left side column. contains the logo and sidebar -->
-    @include('layouts.sidebar')
+    @include('layouts.admin.sidebar')
     <!-- Content Wrapper. Contains page content -->
     <div class="content-wrapper">
       <!-- Content Header (Page header) -->
-      <section class="content-header row">
-        <!-- Form search -->
-        @include('layouts.form-search')
-      </section>
+
       <!-- Main content -->
       <div class="container">
         @yield('content')
@@ -44,7 +42,7 @@
     </div>
     <!-- /.content-wrapper -->
     <!-- Main Footer -->
-    @include('layouts.footer')
+    @include('layouts.admin.footer')
   </div>
   <!-- ./wrapper -->
 
@@ -56,5 +54,6 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   <!-- AdminLTE App -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/admin-lte/2.4.7/js/adminlte.min.js"></script>
+  <script src="/public/js/admin/confirm.js"></script>
 </body>
 </html>

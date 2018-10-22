@@ -17,9 +17,9 @@
       name="sort" value="user">
       <label for="contactChoice2">User</label>
 
-      <input type="radio" id="contactChoice3"
+{{--       <input type="radio" id="contactChoice3"
       name="sort" value="history">
-      <label for="contactChoice3">History</label>
+      <label for="contactChoice3">History</label> --}}
     </div>
   </form>
 </div>

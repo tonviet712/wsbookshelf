@@ -1,0 +1,62 @@
+[Mon Sep 24 09:47:13.426207 2018] [php7:notice] [pid 7556] [client 127.0.0.1:48248] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:13.426266 2018] [php7:notice] [pid 7556] [client 127.0.0.1:48248] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:13.426276 2018] [php7:notice] [pid 7556] [client 127.0.0.1:48248] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:13.426288 2018] [php7:notice] [pid 7556] [client 127.0.0.1:48248] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:13.426294 2018] [php7:notice] [pid 7556] [client 127.0.0.1:48248] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:13.426298 2018] [php7:notice] [pid 7556] [client 127.0.0.1:48248] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:35.125554 2018] [php7:notice] [pid 7561] [client 127.0.0.1:48390] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:47:35.125617 2018] [php7:notice] [pid 7561] [client 127.0.0.1:48390] PHP Stack trace:
+[Mon Sep 24 09:47:35.125628 2018] [php7:notice] [pid 7561] [client 127.0.0.1:48390] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:47:35.125643 2018] [php7:notice] [pid 7561] [client 127.0.0.1:48390] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:47:35.125653 2018] [php7:notice] [pid 7561] [client 127.0.0.1:48390] PHP Stack trace:
+[Mon Sep 24 09:47:35.125659 2018] [php7:notice] [pid 7561] [client 127.0.0.1:48390] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:47:40.423628 2018] [php7:notice] [pid 7558] [client 127.0.0.1:48392] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:40.423671 2018] [php7:notice] [pid 7558] [client 127.0.0.1:48392] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:40.423680 2018] [php7:notice] [pid 7558] [client 127.0.0.1:48392] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:40.423692 2018] [php7:notice] [pid 7558] [client 127.0.0.1:48392] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:40.423697 2018] [php7:notice] [pid 7558] [client 127.0.0.1:48392] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:47:40.423701 2018] [php7:notice] [pid 7558] [client 127.0.0.1:48392] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:48:56.454594 2018] [php7:notice] [pid 7560] [client 127.0.0.1:49022] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:48:56.454694 2018] [php7:notice] [pid 7560] [client 127.0.0.1:49022] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:48:56.454707 2018] [php7:notice] [pid 7560] [client 127.0.0.1:49022] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:48:56.454752 2018] [php7:notice] [pid 7560] [client 127.0.0.1:49022] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:48:56.454760 2018] [php7:notice] [pid 7560] [client 127.0.0.1:49022] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:48:56.454766 2018] [php7:notice] [pid 7560] [client 127.0.0.1:49022] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:54:40.856008 2018] [php7:notice] [pid 7558] [client 127.0.0.1:51852] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:54:40.856047 2018] [php7:notice] [pid 7558] [client 127.0.0.1:51852] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:54:40.856060 2018] [php7:notice] [pid 7558] [client 127.0.0.1:51852] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:54:40.856075 2018] [php7:notice] [pid 7558] [client 127.0.0.1:51852] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:54:40.856083 2018] [php7:notice] [pid 7558] [client 127.0.0.1:51852] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:54:40.856090 2018] [php7:notice] [pid 7558] [client 127.0.0.1:51852] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:05.331811 2018] [php7:notice] [pid 7556] [client 127.0.0.1:52614] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:56:05.331853 2018] [php7:notice] [pid 7556] [client 127.0.0.1:52614] PHP Stack trace:
+[Mon Sep 24 09:56:05.331865 2018] [php7:notice] [pid 7556] [client 127.0.0.1:52614] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:56:05.331881 2018] [php7:notice] [pid 7556] [client 127.0.0.1:52614] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:56:05.331889 2018] [php7:notice] [pid 7556] [client 127.0.0.1:52614] PHP Stack trace:
+[Mon Sep 24 09:56:05.331896 2018] [php7:notice] [pid 7556] [client 127.0.0.1:52614] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:56:15.649907 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.649946 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.649959 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP   1. {main}() /var/www/html/bookshelf/server.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.649969 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP   2. require_once() /var/www/html/bookshelf/server.php:21, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.649985 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.650005 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.650013 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP   1. {main}() /var/www/html/bookshelf/server.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:15.650021 2018] [php7:notice] [pid 7560] [client 127.0.0.1:52616] PHP   2. require_once() /var/www/html/bookshelf/server.php:21, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:23.000435 2018] [php7:notice] [pid 7561] [client 127.0.0.1:52708] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:23.000485 2018] [php7:notice] [pid 7561] [client 127.0.0.1:52708] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:23.000497 2018] [php7:notice] [pid 7561] [client 127.0.0.1:52708] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:23.000514 2018] [php7:notice] [pid 7561] [client 127.0.0.1:52708] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:23.000521 2018] [php7:notice] [pid 7561] [client 127.0.0.1:52708] PHP Stack trace:, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:23.000529 2018] [php7:notice] [pid 7561] [client 127.0.0.1:52708] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0, referer: http://dev.bookshelf.com/
+[Mon Sep 24 09:56:28.492644 2018] [php7:notice] [pid 7616] [client 127.0.0.1:52770] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:56:28.492704 2018] [php7:notice] [pid 7616] [client 127.0.0.1:52770] PHP Stack trace:
+[Mon Sep 24 09:56:28.492719 2018] [php7:notice] [pid 7616] [client 127.0.0.1:52770] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:56:28.492752 2018] [php7:notice] [pid 7616] [client 127.0.0.1:52770] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:56:28.492760 2018] [php7:notice] [pid 7616] [client 127.0.0.1:52770] PHP Stack trace:
+[Mon Sep 24 09:56:28.492767 2018] [php7:notice] [pid 7616] [client 127.0.0.1:52770] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:56:42.042280 2018] [php7:notice] [pid 7557] [client 127.0.0.1:52928] PHP Warning:  require(/var/www/html/bookshelf/public/../vendor/autoload.php): failed to open stream: No such file or directory in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:56:42.042340 2018] [php7:notice] [pid 7557] [client 127.0.0.1:52928] PHP Stack trace:
+[Mon Sep 24 09:56:42.042352 2018] [php7:notice] [pid 7557] [client 127.0.0.1:52928] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0
+[Mon Sep 24 09:56:42.042374 2018] [php7:notice] [pid 7557] [client 127.0.0.1:52928] PHP Fatal error:  require(): Failed opening required '/var/www/html/bookshelf/public/../vendor/autoload.php' (include_path='.:/usr/share/php') in /var/www/html/bookshelf/public/index.php on line 24
+[Mon Sep 24 09:56:42.042384 2018] [php7:notice] [pid 7557] [client 127.0.0.1:52928] PHP Stack trace:
+[Mon Sep 24 09:56:42.042392 2018] [php7:notice] [pid 7557] [client 127.0.0.1:52928] PHP   1. {main}() /var/www/html/bookshelf/public/index.php:0

@@ -20,12 +20,12 @@
         <!-- Notifications Menu -->
         <li class="dropdown notifications-menu">
           <!-- Menu toggle button -->
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+          <a href="/admin/books?status=2">
             Request <i class="fa fa-bell-o"></i>
-            <span class="label label-warning">10</span>
+            <span class="label label-warning">{{ $request }}</span>
           </a>
-          <ul class="dropdown-menu">
-            {{-- <li class="header">You have 10 requests</li> --}}
+          {{-- <ul class="dropdown-menu">
+            <li class="header">You have 10 requests</li>
             <li>
               <!-- Inner Menu: contains the notifications -->
               <ul class="menu">
@@ -37,7 +37,7 @@
                 <!-- end notification -->
               </ul>
             </li>
-          </ul>
+          </ul> --}}
         </li>
         <!-- Tasks Menu -->
 
@@ -45,14 +45,18 @@
         <li class="dropdown user user-menu">
           <!-- Menu Toggle Button -->
           <a href="#" class="">
-            <span class="hidden-xs">Admin</span>
+            <span class="hidden-xs">{{ (Auth::check()) ? Auth::user()->name : "" }}</span>
           </a>
         </li>
         <li class="dropdown user user-menu">
           <!-- Menu Toggle Button -->
-          <a href="#" class="">
+          <a href="{{ route('logout') }}" class=""  onclick="event.preventDefault();
+            document.getElementById('logout-form').submit();">
             <span class="hidden-xs">Log Out</span>
           </a>
+          <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
+            {{ csrf_field() }}
+          </form>
         </li>
         <!-- Control Sidebar Toggle Button -->
       </ul>
